@@ -4,6 +4,8 @@
   "description": "A collection of tools and assets to be used across Spectre repositories",
   "main": "index.js",
   "scripts": {
+    "resizer": "npm run build --workspace=resizer && npx serve resizer",
+    "samples": "npm run main --workspace=samples",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

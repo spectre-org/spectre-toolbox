@@ -1,12 +1,13 @@
 {
   "name": "resizer",
-  "description": "A web responsive layout tool that helps developers test apps across major breakpoints",
+  "description": "A responsive layout tool to test apps across major breakpoints",
   "version": "0.0.0",
   "private": true,
   "main": "index.html",
   "scripts": {
     "build": "gulp build",
     "watch": "gulp watch",
+    "serve": "npx serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

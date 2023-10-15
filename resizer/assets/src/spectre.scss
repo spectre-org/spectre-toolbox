@@ -1,0 +1,24 @@
+/*! Spectre.css | MIT License | github.com/picturepan2/spectre */
+// Core variables and mixins
+@import 'node_modules/@spectre-org/spectre-css/src/variables';
+@import 'node_modules/@spectre-org/spectre-css/src/mixins';
+
+// Reset and dependencies
+@import 'node_modules/@spectre-org/spectre-css/src/normalize';
+@import 'node_modules/@spectre-org/spectre-css/src/base';
+
+// Core classes
+@import 'node_modules/@spectre-org/spectre-css/src/typography';
+@import 'node_modules/@spectre-org/spectre-css/src/tables';
+@import 'node_modules/@spectre-org/spectre-css/src/buttons';
+@import 'node_modules/@spectre-org/spectre-css/src/forms';
+@import 'node_modules/@spectre-org/spectre-css/src/labels';
+@import 'node_modules/@spectre-org/spectre-css/src/media';
+
+// Layout
+@import 'node_modules/@spectre-org/spectre-css/src/layout';
+@import 'node_modules/@spectre-org/spectre-css/src/navbar';
+
+// Utility classes
+@import 'node_modules/@spectre-org/spectre-css/src/animations';
+@import 'node_modules/@spectre-org/spectre-css/src/utilities';

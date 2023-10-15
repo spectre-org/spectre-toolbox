@@ -1,0 +1,10 @@
+{
+  "name": "samples",
+  "description": "A collection of HTML fragments to be used across docs and other tools",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

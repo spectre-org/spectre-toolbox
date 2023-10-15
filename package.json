@@ -1,0 +1,27 @@
+{
+  "name": "spectre-toolbox",
+  "version": "0.0.0",
+  "description": "A collection of tools and assets to be used across Spectre repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spectre-org/spectre-toolbox.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/spectre-org/spectre-toolbox/issues"
+  },
+  "homepage": "https://github.com/spectre-org/spectre-toolbox#readme",
+  "devDependencies": {
+    "alias-hq": "^6.2.2",
+    "spaceman": "^1.5.2"
+  },
+  "workspaces": [
+    "resizer",
+    "samples"
+  ]
+}
